@@ -14,7 +14,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git -b 18.06 package/kle
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' package/feeds/luci/luci/Makefile
 
 # AdGuardHome 的 OpenWrt Luci
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/kleinersource/luci-app-adguardhome
+#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/kleinersource/luci-app-adguardhome
 
 # 网易云音乐完整版
 git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/kleinersource/luci-app-unblockneteasemusic
@@ -39,12 +39,12 @@ git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/kle
 # git clone  https://github.com/lisaac/luci-app-dockerman.git package/kleinersource/luci-app-dockerman        
 
 # 魔改 SSRP+
-git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo package/kleinersource/luci-app-ssr-plus-Jo
-git clone https://github.com/Leo-Jo-My/my.git package/my
+#git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo package/kleinersource/luci-app-ssr-plus-Jo
+#git clone https://github.com/Leo-Jo-My/my.git package/my
 # 删除Lean原版 SSRP+ 依赖
-rm -rf package/lean/dnsforwarder
-rm -rf package/lean/simple-obfs
-rm -rf package/lean/v2ray-plugin
+#rm -rf package/lean/dnsforwarder
+#rm -rf package/lean/simple-obfs
+#rm -rf package/lean/v2ray-plugin
 # 主题包
 # git clone https://github.com/Leo-Jo-My/luci-theme-Butterfly package/kleinersource/luci-theme-Butterfly
 # git clone https://github.com/Leo-Jo-My/luci-theme-opentomato package/kleinersource/luci-theme-opentomato
